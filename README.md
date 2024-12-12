@@ -5,20 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 3.3.1
 
-* System dependencies
+* Docker
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## To run this project
+Check the neccessary depedencies and run this docker compose command <br>
+`docker-compose up -d` <br>
+Then you can access on your localhost at port 4000 <br>
+`http://localhost:4000` or `http://127.0.0.1:4000`
